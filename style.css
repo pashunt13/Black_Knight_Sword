@@ -1,76 +1,98 @@
-body { background: url(https://i.pinimg.com/originals/f5/74/66/f57466c1d4d9e26edc450b973ebb4379.jpg) ;
-    background-attachment:fixed;  }
-
-.brd {
-border: 4px double whitesmoke; 
-width: 1200px;
-background: rgba(0, 0, 0, 0.7); 
-padding: 10px; 
-color: whitesmoke;
-font-size: 13pt;
-margin: auto;
-margin-top: 10px;
+body { 
+    background: url(https://i.pinimg.com/originals/f5/74/66/f57466c1d4d9e26edc450b973ebb4379.jpg);
+    background-attachment:fixed;  
+    background-size: 100% auto;
 }
 
-.brd1 {
-border: 2px solid darkgrey; 
-border-style: ridge ;
-width: 400px;
-background: rgba(0, 0, 0, 0); 
-padding: 10px; 
-color: whitesmoke;
-font-size: 13pt;
-font-style: italic;
-margin-top: 10px;
-margin-left: 5px;
+.mainBorder {
+    border: 4px double whitesmoke; 
+    width: 70%;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 10px; 
+    color: whitesmoke;
+    font-size: 13pt;
+    margin: auto;
+    margin-top: 10px;
 }
 
-.h1 {
-font-family: 'Times New Roman', Times, serif;
-font-style: italic;
-color: whitesmoke;
-font-size: 30pt;
-text-decoration: underline;
-margin-left: 360px;
-margin-top: 150px;
+.innerBorder {
+    border: 2px solid darkgrey; 
+    border-style: ridge;
+    width: 33%;
+    background: rgba(0, 0, 0, 0); 
+    padding: 10px; 
+    color: whitesmoke;
+    font-size: 13pt;
+    font-style: italic;
+    margin-left: 5px;
+    margin-bottom: 13pt;
 }
 
-.h2 {
-font-family:Helvetica;
-border-bottom :1px solid rgb(77, 77, 77) ;
-color: whitesmoke;
-font-size: 22pt;  
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 30pt;
+    text-decoration: underline;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: -3px;
 }
 
-.h3 {
-font-family: arial;
-color: whitesmoke;
-font-size: 16pt;    
-margin-top:auto;
+h2 {
+    font-weight: normal;
+    font-family: arial;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 16pt;    
+    margin-top:20px;
+    margin-bottom: 10px; 
+}
+
+h3 {
+    font-weight: normal;
+    font-family:Helvetica;
+    border-bottom :1px solid rgb(77, 77, 77) ;
+    color: whitesmoke;
+    font-size: 22pt;
+    margin-top: auto; 
+}
+
+a {
+    color: darkgoldenrod;
 }
 
 table { 
- border :1px solid rgb(77, 77, 77) ;
- border-collapse: collapse;
- margin-left: 20px;
- margin-top: 30px;       
+    height: 350;
+    width: 700;
+    border-color: darkgrey;
+    color: whitesmoke;
+    border: 1px solid rgb(77, 77, 77) ;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    text-align: center;     
 }   
 
 td, tr, th{
- border :1px solid rgb(77, 77, 77) ; 
- padding: 10px;
+    border :1px solid rgb(77, 77, 77) ; 
+    padding: 10px;
 }
 
 .gallery {
- float:right;
- text-align: center;
- margin-top: 20px;
- margin-right: 10px;
+    height: auto;
+    width: 60%;
+    float:right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 
 .gallery_text {
- color:rgb(77, 77, 77) ; 
- float:right;          
- margin-top: 320px;            
- font-size: 12pt;
+    color:rgb(77, 77, 77) ; 
+    float:right;          
+    margin-top: 320px;            
+    font-size: 12pt;
 }
